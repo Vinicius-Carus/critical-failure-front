@@ -1,0 +1,50 @@
+.inputContainer {
+    position: relative;
+    margin: 50px auto;
+    width: 70%;
+  }
+  
+  .inputContainer input {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .inputContainer .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .inputContainer input:focus ~ .label,
+  .inputContainer input:valid ~ .label {
+    top: -20px;
+    font-size: 16px;
+  }
+
+  .inputContainer input:focus ~ .label {
+    color: #BE3144;
+  }
+
+  .inputContainer .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #BE3144;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+  
+  .inputContainer input:focus ~ .underline{
+    transform: scaleX(1);
+  }
+  

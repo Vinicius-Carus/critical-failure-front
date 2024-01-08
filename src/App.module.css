@@ -1,0 +1,18 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #0B000D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divLogo {
+    height: 300px;
+    width: 200px;
+}
+
+.imgLogo {
+    width: 100%
+}
