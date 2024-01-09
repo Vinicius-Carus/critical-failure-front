@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500;600&display=swap');
+
+.formDiv {
+    width: 400px;
+    min-height: 60vh;
+    background-color: #0B000D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  1px 1px 101px #F05941;
+    margin-bottom: 60px
+}
+.formButton {
+    width: 300px;
+}
+
+.formDiv a {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.formTitle {
+    margin: 30px 0px;
+    font-family: 'Tektur', sans-serif;
+    font-size: 40px;
+    color: #BE3144;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divLogo {
+    height: 300px;
+    width: 200px;
+}
+
+.imgLogo {
+    width: 100%
+}

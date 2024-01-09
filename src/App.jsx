@@ -1,16 +1,13 @@
 import styles from "./App.module.css"
-import FormLogin from "./pages/Form/FormLogin"
-import logo from '/abulele.png'
+import { Form } from "./pages/Form/Form"
 
 function App() {
-
+  
   return (
     <>
-      <main className={styles.main}>
-        <div className={styles.divLogo}>
-          <img className={styles.imgLogo} src={logo} alt="" />
-        </div>
-        <FormLogin/>
+      <main className={styles.main}> 
+        <Form />
+
       </main>
     </>
   )
